@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6E16E02C4E68AB006E3AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E16DF2C4E68AB006E3AFD /* AppDelegate.swift */; };
+		DD6E16E42C4E68AB006E3AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16E32C4E68AB006E3AFD /* Base */; };
+		DD6E16E62C4E68AB006E3AFD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16E52C4E68AB006E3AFD /* Icon.png */; };
+		DD6E16E82C4E68AB006E3AFD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16E72C4E68AB006E3AFD /* Style.css */; };
+		DD6E16EA2C4E68AB006E3AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E16E92C4E68AB006E3AFD /* SceneDelegate.swift */; };
+		DD6E16EC2C4E68AB006E3AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E16EB2C4E68AB006E3AFD /* ViewController.swift */; };
+		DD6E16EF2C4E68AB006E3AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16EE2C4E68AB006E3AFD /* Base */; };
+		DD6E16F22C4E68AB006E3AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16F12C4E68AB006E3AFD /* Base */; };
+		DD6E16FE2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E16FD2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.swift */; };
+		DD6E17082C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E17072C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.swift */; };
+		DD6E170A2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E17092C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITestsLaunchTests.swift */; };
+		DD6E17102C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD6E170F2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD6E17152C4E68AF006E3AFD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E17142C4E68AF006E3AFD /* SafariWebExtensionHandler.swift */; };
+		DD6E17182C4E68AF006E3AFD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DD6E17172C4E68AF006E3AFD /* _locales */; };
+		DD6E171A2C4E68AF006E3AFD /* images in Resources */ = {isa = PBXBuildFile; fileRef = DD6E17192C4E68AF006E3AFD /* images */; };
+		DD6E171C2C4E68AF006E3AFD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DD6E171B2C4E68AF006E3AFD /* manifest.json */; };
+		DD6E171E2C4E68AF006E3AFD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DD6E171D2C4E68AF006E3AFD /* background.js */; };
+		DD6E17202C4E68AF006E3AFD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DD6E171F2C4E68AF006E3AFD /* content.js */; };
+		DD6E17222C4E68AF006E3AFD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DD6E17212C4E68AF006E3AFD /* popup.html */; };
+		DD6E17242C4E68AF006E3AFD /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DD6E17232C4E68AF006E3AFD /* popup.css */; };
+		DD6E17262C4E68AF006E3AFD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DD6E17252C4E68AF006E3AFD /* popup.js */; };
+		DD6E17282C4E68AF006E3AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6E16F32C4E68AE006E3AFD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6E16FA2C4E68AF006E3AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6E16D42C4E68AB006E3AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6E16DB2C4E68AB006E3AFD;
+			remoteInfo = NUSZeroWasteTrackerV2;
+		};
+		DD6E17042C4E68AF006E3AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6E16D42C4E68AB006E3AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6E16DB2C4E68AB006E3AFD;
+			remoteInfo = NUSZeroWasteTrackerV2;
+		};
+		DD6E17112C4E68AF006E3AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6E16D42C4E68AB006E3AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6E170E2C4E68AF006E3AFD;
+			remoteInfo = "NUSZeroWasteTrackerV2 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD6E172E2C4E68AF006E3AFD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD6E17102C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD6E16DC2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUSZeroWasteTrackerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6E16DF2C4E68AB006E3AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD6E16E32C4E68AB006E3AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DD6E16E52C4E68AB006E3AFD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DD6E16E72C4E68AB006E3AFD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DD6E16E92C4E68AB006E3AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD6E16EB2C4E68AB006E3AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD6E16EE2C4E68AB006E3AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6E16F12C4E68AB006E3AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6E16F32C4E68AE006E3AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6E16F42C4E68AE006E3AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6E16F92C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUSZeroWasteTrackerV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6E16FD2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUSZeroWasteTrackerV2Tests.swift; sourceTree = "<group>"; };
+		DD6E17032C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUSZeroWasteTrackerV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6E17072C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUSZeroWasteTrackerV2UITests.swift; sourceTree = "<group>"; };
+		DD6E17092C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUSZeroWasteTrackerV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD6E170F2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NUSZeroWasteTrackerV2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6E17142C4E68AF006E3AFD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DD6E17172C4E68AF006E3AFD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		DD6E17192C4E68AF006E3AFD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DD6E171B2C4E68AF006E3AFD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		DD6E171D2C4E68AF006E3AFD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		DD6E171F2C4E68AF006E3AFD /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		DD6E17212C4E68AF006E3AFD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		DD6E17232C4E68AF006E3AFD /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		DD6E17252C4E68AF006E3AFD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		DD6E17272C4E68AF006E3AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6E16D92C4E68AB006E3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E16F62C4E68AF006E3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E17002C4E68AF006E3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E170C2C4E68AF006E3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6E16D32C4E68AB006E3AFD = {
+			isa = PBXGroup;
+			children = (
+				DD6E16DE2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */,
+				DD6E16FC2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests */,
+				DD6E17062C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests */,
+				DD6E17132C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension */,
+				DD6E16DD2C4E68AB006E3AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6E16DD2C4E68AB006E3AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E16DC2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2.app */,
+				DD6E16F92C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.xctest */,
+				DD6E17032C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.xctest */,
+				DD6E170F2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6E16DE2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E16DF2C4E68AB006E3AFD /* AppDelegate.swift */,
+				DD6E16E92C4E68AB006E3AFD /* SceneDelegate.swift */,
+				DD6E16EB2C4E68AB006E3AFD /* ViewController.swift */,
+				DD6E16ED2C4E68AB006E3AFD /* LaunchScreen.storyboard */,
+				DD6E16F02C4E68AB006E3AFD /* Main.storyboard */,
+				DD6E16F32C4E68AE006E3AFD /* Assets.xcassets */,
+				DD6E16F42C4E68AE006E3AFD /* Info.plist */,
+				DD6E16E12C4E68AB006E3AFD /* Resources */,
+			);
+			path = NUSZeroWasteTrackerV2;
+			sourceTree = "<group>";
+		};
+		DD6E16E12C4E68AB006E3AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E16E22C4E68AB006E3AFD /* Main.html */,
+				DD6E16E52C4E68AB006E3AFD /* Icon.png */,
+				DD6E16E72C4E68AB006E3AFD /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD6E16FC2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E16FD2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.swift */,
+			);
+			path = NUSZeroWasteTrackerV2Tests;
+			sourceTree = "<group>";
+		};
+		DD6E17062C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E17072C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.swift */,
+				DD6E17092C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITestsLaunchTests.swift */,
+			);
+			path = NUSZeroWasteTrackerV2UITests;
+			sourceTree = "<group>";
+		};
+		DD6E17132C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E17142C4E68AF006E3AFD /* SafariWebExtensionHandler.swift */,
+				DD6E17272C4E68AF006E3AFD /* Info.plist */,
+				DD6E17162C4E68AF006E3AFD /* Resources */,
+			);
+			path = "NUSZeroWasteTrackerV2 Extension";
+			sourceTree = "<group>";
+		};
+		DD6E17162C4E68AF006E3AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E17172C4E68AF006E3AFD /* _locales */,
+				DD6E17192C4E68AF006E3AFD /* images */,
+				DD6E171B2C4E68AF006E3AFD /* manifest.json */,
+				DD6E171D2C4E68AF006E3AFD /* background.js */,
+				DD6E171F2C4E68AF006E3AFD /* content.js */,
+				DD6E17212C4E68AF006E3AFD /* popup.html */,
+				DD6E17232C4E68AF006E3AFD /* popup.css */,
+				DD6E17252C4E68AF006E3AFD /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6E16DB2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6E172F2C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2" */;
+			buildPhases = (
+				DD6E16D82C4E68AB006E3AFD /* Sources */,
+				DD6E16D92C4E68AB006E3AFD /* Frameworks */,
+				DD6E16DA2C4E68AB006E3AFD /* Resources */,
+				DD6E172E2C4E68AF006E3AFD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6E17122C4E68AF006E3AFD /* PBXTargetDependency */,
+			);
+			name = NUSZeroWasteTrackerV2;
+			productName = NUSZeroWasteTrackerV2;
+			productReference = DD6E16DC2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6E16F82C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6E17322C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2Tests" */;
+			buildPhases = (
+				DD6E16F52C4E68AF006E3AFD /* Sources */,
+				DD6E16F62C4E68AF006E3AFD /* Frameworks */,
+				DD6E16F72C4E68AF006E3AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6E16FB2C4E68AF006E3AFD /* PBXTargetDependency */,
+			);
+			name = NUSZeroWasteTrackerV2Tests;
+			productName = NUSZeroWasteTrackerV2Tests;
+			productReference = DD6E16F92C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD6E17022C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6E17352C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2UITests" */;
+			buildPhases = (
+				DD6E16FF2C4E68AF006E3AFD /* Sources */,
+				DD6E17002C4E68AF006E3AFD /* Frameworks */,
+				DD6E17012C4E68AF006E3AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6E17052C4E68AF006E3AFD /* PBXTargetDependency */,
+			);
+			name = NUSZeroWasteTrackerV2UITests;
+			productName = NUSZeroWasteTrackerV2UITests;
+			productReference = DD6E17032C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD6E170E2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6E172B2C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2 Extension" */;
+			buildPhases = (
+				DD6E170B2C4E68AF006E3AFD /* Sources */,
+				DD6E170C2C4E68AF006E3AFD /* Frameworks */,
+				DD6E170D2C4E68AF006E3AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NUSZeroWasteTrackerV2 Extension";
+			productName = "NUSZeroWasteTrackerV2 Extension";
+			productReference = DD6E170F2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6E16D42C4E68AB006E3AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DD6E16DB2C4E68AB006E3AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DD6E16F82C4E68AF006E3AFD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD6E16DB2C4E68AB006E3AFD;
+					};
+					DD6E17022C4E68AF006E3AFD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD6E16DB2C4E68AB006E3AFD;
+					};
+					DD6E170E2C4E68AF006E3AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DD6E16D72C4E68AB006E3AFD /* Build configuration list for PBXProject "NUSZeroWasteTrackerV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6E16D32C4E68AB006E3AFD;
+			productRefGroup = DD6E16DD2C4E68AB006E3AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6E16DB2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */,
+				DD6E16F82C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests */,
+				DD6E17022C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests */,
+				DD6E170E2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6E16DA2C4E68AB006E3AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E16E62C4E68AB006E3AFD /* Icon.png in Resources */,
+				DD6E16E42C4E68AB006E3AFD /* Base in Resources */,
+				DD6E16E82C4E68AB006E3AFD /* Style.css in Resources */,
+				DD6E16EF2C4E68AB006E3AFD /* Base in Resources */,
+				DD6E17282C4E68AF006E3AFD /* Assets.xcassets in Resources */,
+				DD6E16F22C4E68AB006E3AFD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E16F72C4E68AF006E3AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E17012C4E68AF006E3AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E170D2C4E68AF006E3AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E171E2C4E68AF006E3AFD /* background.js in Resources */,
+				DD6E17242C4E68AF006E3AFD /* popup.css in Resources */,
+				DD6E17222C4E68AF006E3AFD /* popup.html in Resources */,
+				DD6E171A2C4E68AF006E3AFD /* images in Resources */,
+				DD6E171C2C4E68AF006E3AFD /* manifest.json in Resources */,
+				DD6E17182C4E68AF006E3AFD /* _locales in Resources */,
+				DD6E17202C4E68AF006E3AFD /* content.js in Resources */,
+				DD6E17262C4E68AF006E3AFD /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6E16D82C4E68AB006E3AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E16EC2C4E68AB006E3AFD /* ViewController.swift in Sources */,
+				DD6E16E02C4E68AB006E3AFD /* AppDelegate.swift in Sources */,
+				DD6E16EA2C4E68AB006E3AFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E16F52C4E68AF006E3AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E16FE2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E16FF2C4E68AF006E3AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E17082C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITests.swift in Sources */,
+				DD6E170A2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E170B2C4E68AF006E3AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E17152C4E68AF006E3AFD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6E16FB2C4E68AF006E3AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6E16DB2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */;
+			targetProxy = DD6E16FA2C4E68AF006E3AFD /* PBXContainerItemProxy */;
+		};
+		DD6E17052C4E68AF006E3AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6E16DB2C4E68AB006E3AFD /* NUSZeroWasteTrackerV2 */;
+			targetProxy = DD6E17042C4E68AF006E3AFD /* PBXContainerItemProxy */;
+		};
+		DD6E17122C4E68AF006E3AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6E170E2C4E68AF006E3AFD /* NUSZeroWasteTrackerV2 Extension */;
+			targetProxy = DD6E17112C4E68AF006E3AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6E16E22C4E68AB006E3AFD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6E16E32C4E68AB006E3AFD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DD6E16ED2C4E68AB006E3AFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6E16EE2C4E68AB006E3AFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6E16F02C4E68AB006E3AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6E16F12C4E68AB006E3AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6E17292C4E68AF006E3AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD6E172A2C4E68AF006E3AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6E172C2C4E68AF006E3AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NUSZeroWasteTrackerV2 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NUSZeroWasteTrackerV2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6E172D2C4E68AF006E3AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NUSZeroWasteTrackerV2 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NUSZeroWasteTrackerV2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6E17302C4E68AF006E3AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NUSZeroWasteTrackerV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NUSZeroWasteTrackerV2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6E17312C4E68AF006E3AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NUSZeroWasteTrackerV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NUSZeroWasteTrackerV2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6E17332C4E68AF006E3AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUSZeroWasteTrackerV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NUSZeroWasteTrackerV2";
+			};
+			name = Debug;
+		};
+		DD6E17342C4E68AF006E3AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUSZeroWasteTrackerV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NUSZeroWasteTrackerV2";
+			};
+			name = Release;
+		};
+		DD6E17362C4E68AF006E3AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NUSZeroWasteTrackerV2;
+			};
+			name = Debug;
+		};
+		DD6E17372C4E68AF006E3AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NUSZeroWaste.NUSZeroWasteTrackerV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NUSZeroWasteTrackerV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6E16D72C4E68AB006E3AFD /* Build configuration list for PBXProject "NUSZeroWasteTrackerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E17292C4E68AF006E3AFD /* Debug */,
+				DD6E172A2C4E68AF006E3AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6E172B2C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E172C2C4E68AF006E3AFD /* Debug */,
+				DD6E172D2C4E68AF006E3AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6E172F2C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E17302C4E68AF006E3AFD /* Debug */,
+				DD6E17312C4E68AF006E3AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6E17322C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E17332C4E68AF006E3AFD /* Debug */,
+				DD6E17342C4E68AF006E3AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6E17352C4E68AF006E3AFD /* Build configuration list for PBXNativeTarget "NUSZeroWasteTrackerV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E17362C4E68AF006E3AFD /* Debug */,
+				DD6E17372C4E68AF006E3AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6E16D42C4E68AB006E3AFD /* Project object */;
+}
