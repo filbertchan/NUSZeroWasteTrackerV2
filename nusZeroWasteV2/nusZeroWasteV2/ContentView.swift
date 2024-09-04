@@ -5,15 +5,11 @@ class SharedState: ObservableObject {
     @Published var selectedOption: DropdownMenuOption? = nil
 }
 
-import SwiftUI
-
-import SwiftUI
-
 struct ContentView: View {
     
     @State private var imageData: Data? = nil
     @State var showCamera: Bool = false
-    @State private var detectedWeight: String = "160"
+    @State private var detectedWeight: String = "0"
     
     @ObservedObject var sharedState = SharedState()
     
@@ -25,12 +21,11 @@ struct ContentView: View {
             if imageData != nil, let uiImage = UIImage(data: imageData!) {
                 VStack {
                     ZStack {
-                        // This is where the image and other views go
                         VStack {
-                            Spacer().frame(height: 130) // Set the desired width
+                            Spacer().frame(height: 130)
                             Image(uiImage: uiImage)
                                 .resizable()
-                                .scaledToFit() // This maintains the aspect ratio
+                                .scaledToFit()
                                 .zIndex(0)
                             Text("Detected Weight:")
                                 .padding()
@@ -46,19 +41,22 @@ struct ContentView: View {
                             .font(.largeTitle)
                         }
 
-                        // DropdownMenu is placed on top using ZStack
                         VStack {
                             DropdownMenu(
                                 visible: true,
-                                selectedOption: $sharedState.selectedOption, // Bind to sharedState.selectedOption
-                                location: $sharedState.location, // Bind to sharedState.location
+                                selectedOption: $sharedState.selectedOption,
+                                location: $sharedState.location,
                                 placeholder: placeholder,
                                 options: options
                             )
-                            .zIndex(1) // Ensure DropdownMenu is on top
+                            .zIndex(1)
                             Spacer()
                         }
                     }
+                }
+                .onAppear {
+                    print("POST image to backend")
+                    processImage(image: uiImage)
                 }
             } else {
                 Image(.zeroWasteLogo)
@@ -73,6 +71,25 @@ struct ContentView: View {
         }
         .padding()
         .fullScreenCamera(isPresented: $showCamera, imageData: $imageData)
+    }
+
+    
+    func processImage(image: UIImage) {
+        guard let imageData = image.pngData() else { return }
+        
+        detectDigit(imageData: imageData) { result in
+            switch result {
+            case .success(let ocrResult):
+                DispatchQueue.main.async {
+                    if let firstResult = ocrResult.first {
+                        // Convert the result to a string and assign it
+                        self.detectedWeight = "\(firstResult)"
+                    }
+                }
+            case .failure(let error):
+                print("Error: \(error.localizedDescription)")
+            }
+        }
     }
 }
 
