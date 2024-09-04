@@ -14,6 +14,8 @@
 		DD049BC72C5220C600EB8A5E /* nusZeroWasteV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD049BC62C5220C600EB8A5E /* nusZeroWasteV2Tests.swift */; };
 		DD049BD12C5220C600EB8A5E /* nusZeroWasteV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD049BD02C5220C600EB8A5E /* nusZeroWasteV2UITests.swift */; };
 		DD049BD32C5220C600EB8A5E /* nusZeroWasteV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD049BD22C5220C600EB8A5E /* nusZeroWasteV2UITestsLaunchTests.swift */; };
+		DD486B362C8896C60076E228 /* postCallToServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD486B352C8896C60076E228 /* postCallToServer.swift */; };
+		DD51A3342C8B363600941FEF /* postCallToDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51A3332C8B363600941FEF /* postCallToDb.swift */; };
 		DDB0613F2C5227F80019DE94 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB0613E2C5227F80019DE94 /* CameraView.swift */; };
 		DDB061412C522A980019DE94 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB061402C522A980019DE94 /* View+.swift */; };
 		DDB061442C522C2A0019DE94 /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB061432C522C2A0019DE94 /* ControlButtonView.swift */; };
@@ -58,6 +60,8 @@
 		DD049BCC2C5220C600EB8A5E /* nusZeroWasteV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nusZeroWasteV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD049BD02C5220C600EB8A5E /* nusZeroWasteV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nusZeroWasteV2UITests.swift; sourceTree = "<group>"; };
 		DD049BD22C5220C600EB8A5E /* nusZeroWasteV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nusZeroWasteV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD486B352C8896C60076E228 /* postCallToServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCallToServer.swift; sourceTree = "<group>"; };
+		DD51A3332C8B363600941FEF /* postCallToDb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCallToDb.swift; sourceTree = "<group>"; };
 		DDB0613E2C5227F80019DE94 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		DDB061402C522A980019DE94 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		DDB061432C522C2A0019DE94 /* ControlButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
@@ -121,7 +125,8 @@
 		DD049BB32C5220C400EB8A5E /* nusZeroWasteV2 */ = {
 			isa = PBXGroup;
 			children = (
-				DDB0613D2C5227D40019DE94 /* Camera */,
+				DD486B342C8896910076E228 /* backend */,
+				DDB0613D2C5227D40019DE94 /* frontend */,
 				DD049BB42C5220C400EB8A5E /* nusZeroWasteV2App.swift */,
 				DD049BB62C5220C400EB8A5E /* ContentView.swift */,
 				DDB061572C525CB00019DE94 /* DropdownMenu.swift */,
@@ -159,7 +164,16 @@
 			path = nusZeroWasteV2UITests;
 			sourceTree = "<group>";
 		};
-		DDB0613D2C5227D40019DE94 /* Camera */ = {
+		DD486B342C8896910076E228 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				DD486B352C8896C60076E228 /* postCallToServer.swift */,
+				DD51A3332C8B363600941FEF /* postCallToDb.swift */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		DDB0613D2C5227D40019DE94 /* frontend */ = {
 			isa = PBXGroup;
 			children = (
 				DDB0614E2C5237990019DE94 /* ViewModels */,
@@ -167,7 +181,7 @@
 				DDB061422C522ACB0019DE94 /* Extensions */,
 				DDB061432C522C2A0019DE94 /* ControlButtonView.swift */,
 			);
-			path = Camera;
+			path = frontend;
 			sourceTree = "<group>";
 		};
 		DDB061422C522ACB0019DE94 /* Extensions */ = {
@@ -340,9 +354,11 @@
 				DDB061562C5259D70019DE94 /* DropdownMenuOption.swift in Sources */,
 				DDB061582C525CB00019DE94 /* DropdownMenu.swift in Sources */,
 				DDB061522C5243C60019DE94 /* UIDeviceOrientation+.swift in Sources */,
+				DD51A3342C8B363600941FEF /* postCallToDb.swift in Sources */,
 				DDB0614D2C52378B0019DE94 /* CameraViewModel.swift in Sources */,
 				DDB061492C5230CE0019DE94 /* CameraView+HorizontalControlBar.swift in Sources */,
 				DDB0615A2C525EBE0019DE94 /* DropdownMenuList.swift in Sources */,
+				DD486B362C8896C60076E228 /* postCallToServer.swift in Sources */,
 				DDB061442C522C2A0019DE94 /* ControlButtonView.swift in Sources */,
 				DDB0614B2C5236300019DE94 /* CamreView+VerticalControlBar.swift in Sources */,
 			);
